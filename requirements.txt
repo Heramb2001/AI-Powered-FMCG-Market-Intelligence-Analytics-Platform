@@ -6,7 +6,7 @@ pandas==2.3.3
 numpy==1.26.4
 openpyxl==3.1.5
 
-# Visualisation
+# Visualisatio
 plotly
 
 # LangChain / AI agent
