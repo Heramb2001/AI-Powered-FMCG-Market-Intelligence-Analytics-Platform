@@ -1,0 +1,11 @@
+streamlit>=1.38
+pandas>=2.0
+numpy>=1.26
+openpyxl>=3.1
+plotly>=5.22
+python-dotenv>=1.0
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-huggingface>=0.1
+langchain>=0.3
+faiss-cpu>=1.8
