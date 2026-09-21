@@ -1,11 +1,26 @@
-streamlit>=1.38
-pandas>=2.0
-numpy>=1.26
-openpyxl>=3.1
-plotly>=5.22
-python-dotenv>=1.0
-langchain-core>=0.3
-langchain-community>=0.3
-langchain-huggingface>=0.1
-langchain>=0.3
-faiss-cpu>=1.8
+# Streamlit app
+streamlit==1.50.0
+
+# Data analysis
+pandas==2.3.3
+numpy==1.26.4
+openpyxl==3.1.5
+
+# Visualisation
+plotly
+
+# LangChain / AI agent
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-core==0.3.86
+langchain-huggingface==0.3.1
+langchain-text-splitters==0.3.11
+langsmith==0.4.37
+
+# RAG / vector search
+faiss-cpu==1.13.0
+
+# Supporting configuration / validation
+pydantic==2.13.5
+pydantic-settings==2.11.0
+python-dotenv==1.2.1
